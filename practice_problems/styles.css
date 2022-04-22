@@ -1,5 +1,5 @@
 h1 {
-  font: Georgia, serif;
+  font-family: Georgia, serif;
   color: blue;
 }
 
@@ -16,7 +16,7 @@ code {
 }
 
 mark {
-  font: Courier, monospace;
+  font-family: Courier, monospace;
   background-color: yellow;
   font-size: 12px;
 }
