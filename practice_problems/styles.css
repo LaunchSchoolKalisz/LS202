@@ -1,0 +1,31 @@
+h1 {
+  font: Georgia, serif;
+  color: blue;
+}
+
+p {
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+code {
+  font-family: monospace;
+  font-style: italic;
+  text-decoration: underline;
+  color: green;
+}
+
+mark {
+  font: Courier, monospace;
+  background-color: yellow;
+  font-size: 12px;
+}
+
+mark strong {
+  font-size: 15px;
+}
+
+mark em {
+  font-size: 18px;
+  text-transform: uppercase;
+}
