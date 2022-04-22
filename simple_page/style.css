@@ -5,3 +5,28 @@ body {
 ul {
   padding-left: 0;
 }
+
+#morning {
+  color: black;
+}
+
+#morning + p {
+  font-weight: bold;
+}
+
+#afternoon {
+  color: blue;
+}
+
+#afternoon + p {
+  font-style: italic;
+}
+
+
+#evening {
+  color: purple
+}
+
+ul {
+  list-style: none;
+}
