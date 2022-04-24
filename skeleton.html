@@ -8,3 +8,24 @@
   <body>
   </body>
 </html>
+
+<!-- CSS Border Box: Best Practice -->
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+<!-- CSS Border Box: Safari (< 5.1), Chrome (< 10), and Firefox (< 29) -->
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+  }
