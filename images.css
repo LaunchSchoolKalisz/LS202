@@ -1,0 +1,17 @@
+/* To center an image, must also set visual display model */
+
+img {
+  display: block;
+  margin: 0 auto; /* 0: top and bottom margin, auto: left and right */
+  width: 800px;
+}
+
+/* The image should expand to fit any container width up to 800 pixels (img changes size with size of browser */
+/* Can add a fixed height, and will distort img when browser changes size  */
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
