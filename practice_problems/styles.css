@@ -1,8 +1,25 @@
 img {
   display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 800px;
-  
+  min-width: 500px;
+  width: 100%;
+}
+
+div {
+  height: 300px;
+  width: 300px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.first-div {
+  background-color: #fcc;
+  padding: 20px;
+  margin-right: 20px;
+}
+
+.second-div {
+  background-color: #ccf;
+  border: black 5px solid;
 }
