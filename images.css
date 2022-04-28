@@ -6,8 +6,10 @@ img {
   width: 800px;
 }
 
-/* The image should expand to fit any container width up to 800 pixels (img changes size with size of browser */
-/* Can add a fixed height, and will distort img when browser changes size  */
+/* The image should expand to fit any container width up to 800 pixels (img changes size with size of browser.
+We can add a fixed height, and will distort img when browser changes size. having a variable size for one 
+dimension and fixed for the other makes for a container with strange behavior: this one stretches horizontally 
+but remains fixed vertically  */
 
 img {
   display: block;
