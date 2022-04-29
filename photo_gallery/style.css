@@ -2,3 +2,18 @@ body, main, figure, figcaption, img {
   margin: 0;
   padding: 0;
 }
+
+figure {
+  outline: 1px solid red;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 50px;
+}
+
+img {
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+}
