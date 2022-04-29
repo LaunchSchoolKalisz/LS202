@@ -4,7 +4,6 @@ body, main, figure, figcaption, img {
 }
 
 figure {
-  outline: 1px solid red;
   box-sizing: border-box;
   display: inline-block;
   width: 50%;
@@ -13,7 +12,6 @@ figure {
 
 img {
   width: 50%;
-  align-content: center;
 }
 
 figcaption {
