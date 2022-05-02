@@ -1,0 +1,7 @@
+th[scope=col] {
+  background-color: green;
+}
+
+th[scope=row] {
+  background-color: blue;
+}
