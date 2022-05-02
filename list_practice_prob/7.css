@@ -4,15 +4,19 @@ html {
 
 nav ul {
   background-color: yellow;
-  width: 200px;
+  width: 100%;
   padding: 0;
+  font-size: 0;
 }
 
 nav li {
   color: blue;
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  display: inline-block;
+  font-size: 1rem;
+  text-align: center;
+  width: 25%;
 }
 
 nav a {
