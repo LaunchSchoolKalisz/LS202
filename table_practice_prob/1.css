@@ -1,3 +1,7 @@
 table {
   background-color: cyan;
 }
+
+td {
+  background-color: orange;
+}
