@@ -9,6 +9,7 @@ nav ul {
 
 nav li {
   color: blue;
+  list-style-type: none;
 }
 
 nav a {
