@@ -5,17 +5,27 @@ html {
 nav ul {
   background-color: yellow;
   width: 200px;
+  padding: 0;
 }
 
 nav li {
   color: blue;
   list-style-type: none;
+  margin: 0;
+  padding: 10px;
 }
 
 nav a {
   box-sizing: border-box;
   line-height: 2.5;
+  display: inline-block;
   padding: 0 10px;
   text-decoration: none;
-  width: 100%;
+  width: 100%;  
+}
+
+nav li:hover,
+nav li:focus {
+  background-color: green;
+  color: yellow;
 }
