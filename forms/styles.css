@@ -44,3 +44,19 @@
   display: block;
   width: 100%
 }
+
+/* Style side by side */
+.side-by-side label,
+.side-by-side input[type="text"] {
+  display: inline-block;
+}
+
+.side-by-side label {
+  margin-right: 1rem;
+  vertical-align: middle;
+}
+
+.side-by-side input[type="text"] {
+  vertical-align: middle;
+  width: 35%;
+}
