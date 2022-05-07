@@ -2,7 +2,7 @@
 <html>
   <head></head>
   <body>
-    <form acition="#" method="post">
+    <form acition="#" method="get">
       <fieldset>
         <label for="search_term">Search for:</label>
         <input type="text" name="search_term" id="search_term" required/>
@@ -23,3 +23,33 @@
     </form>
   </body>
 </html>
+
+<!-- 
+LS Solution
+
+<form action="#" method="get">
+  <fieldset>
+    <label>
+      Search for
+      <input type="search" name="query" id="query" />
+    </label>
+
+    <label>
+      <input type="radio" name="filter" value="tv" required />
+      TV
+    </label>
+
+    <label>
+      <input type="radio" name="filter" value="movies" required />
+      Movies
+    </label>
+
+    <label>
+      <input type="radio" name="filter" value="music" required />
+      Music
+    </label>
+
+    <button name="search">Search</button>
+  </fieldset>
+</form>
+ -->
