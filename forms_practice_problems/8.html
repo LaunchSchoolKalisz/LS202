@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>your page title goes here</title>
+    <title>Rater</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="CSS LINK HERE" />
   </head>
   <body>
+    <form action="#" method="post" >
+      <fieldset>
+        <dl>
+          <dt><label for="movie_list">Movie</label></dt>
+          <dd>
+            <select name="movie_list" id="movie_list">
+              <option value="looper">Looper</option>
+              <option value="frozen">Frozen</option>
+              <option value="tommy_boy">Tommy Boy</option>
+            </select>
+          </dd>
+          <dt><label for="rating">Rating</label></dt>
+          <dd>
+            <select name="rating" id="rating">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </dd>
+          <dt>
+            <label>
+              <input type="checkbox" checked/>
+              Add to my favorites
+            </label>
+          </dt>
+          <dt>
+            <input type="submit" value="Rate Movie">
+          </dt>
+        </dl>
+      </fieldset>
+    </form>
   </body>
 </html>
