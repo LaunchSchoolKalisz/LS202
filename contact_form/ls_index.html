@@ -89,46 +89,33 @@
           </dd>
           <dt><label for="zip">Zip Code</label></dt>
           <dd>
-            <input type="text" name="zip" id="zip" placeholder="#####" minlength="5" maxlength="5"/>
+            <input type="number" name="zip" id="zip" placeholder="#####" min="10000" max="99999"/>
           </dd>
-          <dt><label for="color_preference">Which of these colors do you like best?</label></dt>
+          <p>Which of these colors do you like best?<p>
           <dd>
-            <label>
-              <input type="radio" name="color_preference" id="black" checked/>
-              Black
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="red"/>
-              Red
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="orange"/>
-              Orange
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="yellow"/>
-              Yellow
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="green"/>
-              Green
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="blue"/>
-              Blue
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="indigo"/>
-              Indigo
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="violet"/>
-              Violet
-            </label>
-            <label>
-              <input type="radio" name="color_preference" id="white"/>
-              White
-            </label>
+            <ul>
+              <li>
+                <label><input type="radio" value="red">Red</label>
+              </li>
+              <li>
+                <label><input type="radio" value="orange">Orange</label>
+              </li>
+              <li>
+                <label><input type="radio" value="yellow">Yellow</label>
+              </li>
+              <li>
+                <label><input type="radio" value="green">Green</label>
+              </li>
+              <li>
+                <label><input type="radio" value="blue">Blue</label>
+              </li>
+              <li>
+                <label><input type="radio" value="indigo">Indigo</label>
+              </li>
+              <li>
+                <label><input type="radio" value="violet">Violet</label>
+              </li>
+            </ul>
          </dd>
          <dt><label for="tech_preference">Which technologies would you like to learn?</label></dt>
          <dd>
