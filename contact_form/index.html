@@ -8,13 +8,13 @@
   <body>
     <form action="#" method="post">
       <fieldset>
-        <dl class ="name left">
+        <dl class ="partial one_half left">
           <dt><label for="first_name">First Name</label></dt>
           <dd>
             <input type="text" name="first_name" id="first_name" placeholder="Jane">
           </dd>
         </dl><!--  
-        --><dl class="name right">
+        --><dl class="partial one_half right">
           <dt><label for="last_name">Last Name</label></dt>
           <dd>
             <input type="text" name="last_name" id="last_name" placeholder="Smith">
@@ -26,13 +26,13 @@
             <input type="email" name="email" id="email" placeholder="user@domain">
           </dd>
         </dl>
-        <dl>
+        <dl class="partial one_half">
           <dt><label for="city">City</label></dt>
           <dd>
             <input type="text" name="city" id="city" placeholder="Pleasantville">
           </dd>
-        </dl>
-        <dl>
+        </dl><!--
+        --><dl class="partial ten_percent">
           <dt><label for="state">State</label></dt>
           <dd>
             <select name="state" id="state">
@@ -95,8 +95,8 @@
               <option value="VI">VI</option>
             </select>
           </dd>
-        </dl>
-        <dl>
+        </dl><!-- 
+        --><dl class="partial forty_percent">
           <dt><label for="zip">Zip Code</label></dt>
           <dd>
             <input type="text" name="zip" id="zip" placeholder="#####" minlength="5" maxlength="5"/>
