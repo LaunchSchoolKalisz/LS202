@@ -33,3 +33,9 @@ textarea {
   height: auto;
   resize: vertical;
 }
+
+.name {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 49%; 
+}
