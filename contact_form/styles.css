@@ -17,6 +17,14 @@ dd {
   margin: 0 0 25px 0;
 }
 
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl {
+  margin-top: 0;
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
