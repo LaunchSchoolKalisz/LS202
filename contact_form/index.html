@@ -8,23 +8,31 @@
   <body>
     <form action="#" method="post">
       <fieldset>
-        <dl>
+        <dl class ="name">
           <dt><label for="first_name">First Name</label></dt>
           <dd>
             <input type="text" name="first_name" id="first_name" placeholder="Jane">
           </dd>
+        </dl>
+        <dl class="name">
           <dt><label for="last_name">Last Name</label></dt>
           <dd>
             <input type="text" name="last_name" id="last_name" placeholder="Smith">
           </dd>
+        </dl>
+        <dl>
           <dt><label for="email">Email Address</label></dt>
           <dd>
             <input type="email" name="email" id="email" placeholder="user@domain">
           </dd>
+        </dl>
+        <dl>
           <dt><label for="city">City</label></dt>
           <dd>
             <input type="text" name="city" id="city" placeholder="Pleasantville">
           </dd>
+        </dl>
+        <dl>
           <dt><label for="state">State</label></dt>
           <dd>
             <select name="state" id="state">
@@ -87,10 +95,14 @@
               <option value="VI">VI</option>
             </select>
           </dd>
+        </dl>
+        <dl>
           <dt><label for="zip">Zip Code</label></dt>
           <dd>
             <input type="text" name="zip" id="zip" placeholder="#####" minlength="5" maxlength="5"/>
           </dd>
+        </dl>
+        <dl>
           <dt><label for="color_preference">Which of these colors do you like best?</label></dt>
           <dd>
             <label>
@@ -130,6 +142,8 @@
               White
             </label>
          </dd>
+        </dl>
+        <dl>
          <dt><label for="tech_preference">Which technologies would you like to learn?</label></dt>
          <dd>
            <label>
@@ -161,11 +175,12 @@
             Python
            </label>
          </dd>
+        </dl>
+        <dl>
          <dt><label for="comment_box">Comments</label></dt>
          <dd>
            <textarea name="comment_box" id="comment_box" rows="6" cols="80" placeholder="We'd love to hear your feedback!"></textarea>
          </dd>
-  
         </dl>
         <input type="hidden" value="2022-05-08">
         <input type="submit" value="Send"/>
