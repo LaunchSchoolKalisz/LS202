@@ -9,6 +9,10 @@ fieldset {
   border: none;
 }
 
+dt {
+  margin-bottom: 5px;
+}
+
 dd {
   margin: 0 0 25px 0;
 }
