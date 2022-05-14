@@ -34,9 +34,12 @@ textarea {
   resize: vertical;
 }
 
-.name {
+.partial {
   box-sizing: border-box;
   display: inline-block;
+}
+
+.one_half {
   width: 50%;
 }
 
