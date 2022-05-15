@@ -29,3 +29,9 @@ aside {
   float: none;
   overflow: hidden;
 }
+
+footer {
+  background-color: lavender;
+  clear: both;
+  padding: 1rem;
+}
