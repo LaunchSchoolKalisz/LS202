@@ -25,9 +25,11 @@ nav {
 
 ul {
   list-style-type: none;
+  display: grid;
 }
 
 li {
+  grid-row-start: nav-column-start 5;
   text-align: center;
   width: auto;
 }
