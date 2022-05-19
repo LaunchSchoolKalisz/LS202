@@ -76,6 +76,7 @@ footer {
   justify-content: space-between;
   background-color: yellow;
   /* flex-flow: row-reverse;  **Another way to swap order** */
+  /* align-items: center;  **Another way to center the copyright info** */
 }
 
 #copyright {
