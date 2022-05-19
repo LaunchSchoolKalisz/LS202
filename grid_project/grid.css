@@ -9,18 +9,32 @@ html {
   font: normal 24px Helvetica, Arial, sans-serif;
 }
 
+body {
+  display: grid;
+  /* grid-auto-rows: min-content; */
+  grid-template-areas: 
+    "header header   header"
+    "nav    nav      nav"
+    "aside1 article1 aside2"
+    "aside3 article2 article2"
+    "footer footer   footer";
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
 header, h1 {
   background-color: blue;
   color: white;
 }
 
 header {
+  grid-area: header;
   padding: 1rem;
   text-align: center;
 }
 
 nav {
   background-color: cyan;
+  grid-area: nav;
 }
 
 ul {
@@ -57,12 +71,26 @@ aside {
   background-color: lightgreen;
 }
 
+#aside-1 {
+  grid-area: aside1;
+}
+
+#aside-2 {
+  grid-area: aside2;
+}
+
 #aside-3 {
   background-color: pink;
+  grid-area: aside3;
+}
+
+#article-1 {
+  grid-area: article1;
 }
 
 #article-2 {
   background-color: skyblue;
+  grid-area: article2;
 }
 
 p {
@@ -71,6 +99,7 @@ p {
 
 footer {
   background-color: yellow;
+  grid-area: footer;
 }
 
 #copyright {
@@ -80,3 +109,4 @@ footer {
 #logo {
   background-color: orange;
 }
+
