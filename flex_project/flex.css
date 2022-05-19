@@ -80,6 +80,7 @@ footer {
 
 #copyright {
   margin: 0 1rem;
+  align-self: center;
 }
 
 #logo {
