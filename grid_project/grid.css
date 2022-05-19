@@ -102,14 +102,15 @@ footer {
   grid-area: footer;
 
   display: grid;
-  grid-template-areas: 
-  "logo copyright"
+  grid-template-areas: "logo copyright";
+  grid-template-columns: 1fr 3fr;
 }
 
 #copyright {
   margin: 0 1rem;
 
   grid-area: copyright;
+  align-self: center;
 }
 
 #logo {
@@ -117,4 +118,8 @@ footer {
   grid-area: logo;
 }
 
-
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
