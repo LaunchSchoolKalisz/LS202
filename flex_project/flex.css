@@ -75,6 +75,7 @@ footer {
   display: flex;
   justify-content: space-between;
   background-color: yellow;
+  /* flex-flow: row-reverse;  **Another way to swap order** */
 }
 
 #copyright {
