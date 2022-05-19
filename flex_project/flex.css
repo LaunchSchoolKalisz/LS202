@@ -25,12 +25,14 @@ nav {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
 }
 
 li {
   text-align: center;
   width: 20%;
+  flex-direction: column;
 }
 
 a {
