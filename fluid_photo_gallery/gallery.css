@@ -13,8 +13,8 @@ body {
   background-color: #32363d;
   display: flex;
   flex-direction: column;
-  max-width: 1000px; 
-  min-width: 500px;
+  /* max-width: 1000px; 
+  min-width: 500px; */
 }
 
 header {
@@ -29,6 +29,16 @@ header {
   align-items: center;
 }
 
+main {
+  max-width: 1000px; 
+  min-width: 500px;
+}
+
+img {
+  width: 1200px;
+  height: 900px;
+}
+
 #main_photo {
   display: flex;
   flex-direction: column;
@@ -40,6 +50,7 @@ header {
   display: block;
   border: 5px solid white;
   max-width: 90%;
+  object-fit: contain;
 }
 
 figcaption {
@@ -63,6 +74,7 @@ figcaption {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 1px solid white;
+  object-fit: contain;
 }
 
 .thumbnail {
