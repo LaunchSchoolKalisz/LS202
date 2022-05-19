@@ -11,7 +11,7 @@ html {
 
 body {
   display: grid;
-  /* grid-auto-rows: min-content; */
+  grid-auto-rows: min-content;
   grid-template-areas: 
     "header header   header"
     "nav    nav      nav"
@@ -100,13 +100,21 @@ p {
 footer {
   background-color: yellow;
   grid-area: footer;
+
+  display: grid;
+  grid-template-areas: 
+  "logo copyright"
 }
 
 #copyright {
   margin: 0 1rem;
+
+  grid-area: copyright;
 }
 
 #logo {
   background-color: orange;
+  grid-area: logo;
 }
+
 
