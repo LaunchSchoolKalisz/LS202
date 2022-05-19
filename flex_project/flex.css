@@ -79,12 +79,11 @@ footer {
 
 #copyright {
   margin: 0 1rem;
-  
 }
 
 #logo {
   background-color: orange;
-  
+  order: -1;
 }
 
 img {
