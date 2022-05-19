@@ -72,13 +72,22 @@ p {
 }
 
 footer {
+  display: flex;
+  justify-content: space-between;
   background-color: yellow;
 }
 
 #copyright {
   margin: 0 1rem;
+  
 }
 
 #logo {
   background-color: orange;
+  
+}
+
+img {
+  display: block;
+  height: 200px;
 }
