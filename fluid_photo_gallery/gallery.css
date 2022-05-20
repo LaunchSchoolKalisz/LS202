@@ -79,7 +79,22 @@ figcaption {
 
 @media screen and (max-width: 900px) {
   .thumbnail {
-    flex: 25%;
-    max-width: 30%;
+    flex: 30%;
+    max-width: 29%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .thumbnail {
+    flex: 60%;
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .thumbnail {
+    flex: 100%;
+    max-width: 100%;
+    padding: 0;
   }
 }
