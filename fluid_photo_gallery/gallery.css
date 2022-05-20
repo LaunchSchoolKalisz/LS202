@@ -98,3 +98,28 @@ figcaption {
     padding: 0;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  main {
+    display: flex;
+  }
+
+  #thumbnails {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-basis: 950px;
+    flex-wrap: nowrap;
+    padding: 0;
+    margin: 0 3% 0 0;
+  }
+  .thumbnail {
+    padding: 0;
+    max-width: 100%;
+  }
+
+  #thumb_1 img{
+    margin-top: 0px;
+  }
+
+}
