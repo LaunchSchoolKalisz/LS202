@@ -66,8 +66,7 @@ figcaption {
 .thumbnail img{
   box-sizing: border-box;
   width: 100%;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin: 7px 0 8px 0;
   border: 1px solid white;
   object-fit: contain;
 }
